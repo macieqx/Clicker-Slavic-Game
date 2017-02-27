@@ -4,6 +4,9 @@
 <link rel="stylesheet" href="style/style.css">
 <title> Clicker game </title>
 </head>
+<audio controls autoplay hidden>
+<source src="sound/Jaga.wav" type="audio/wav">
+</audio>
 <body>
 	<div class="container">
 		<div class="left-container">
@@ -11,6 +14,7 @@
 				<p id="clickDamageText"> Pojedyncze udrzenie zabiera 1 HP </p>
 				<p id="idleDamageText"> Twoi wojowie zabierają 0 HP na sekundę </p>
 				<p id="criticalHitChanceText"> Masz 0 % szans na udrzenie krytyczne </p>
+				<p id="currentMoneyText"> Stan konta : 0 </p>
 			</div>
 			<div class="heroes">
 				<button id="improve"> Popraw </button>
@@ -20,6 +24,8 @@
 			<div class="levels">
 				<p id="currentLevelText"> Obecny poziom to 0 </p>
 			</div>
+			<p id="monsterText">DEMO</p>
+			<div class="healthBar"><p id="healthText"> 10/10 </p></div>
 			<div class="monsters">
 			</div>
 		</div>

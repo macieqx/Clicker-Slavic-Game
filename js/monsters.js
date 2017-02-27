@@ -3,26 +3,25 @@ var bosses;
 var Tutorial = {
     name: "Demo",
     hp: 10,
-    money: 0.1,
-    type: "without"
+    money: 1,
+    type: "without type",
+    totalhp: 10
 };
 
 var Bagiennik = {
     name: "Bagiennik",
-    hp: 100,
-    money: 1,
-    type: "water"
+    hp: 200,
+    money: 10,
+    type: "water",
+    totalhp: 210
 };
 
 var BabaYaga = {
     name: "Baba Yaga",
-    hp: 350,
-    money: 1,
-    type: "forest"
+    hp: 450,
+    money: 25,
+    type: "forest",
+    totalhp: 660
 };
 
 bosses = [Tutorial, Bagiennik, BabaYaga];
-console.log(bosses[0]);
-console.log(bosses[1]);
-console.log(bosses[0].hp);
-console.log(bosses[1].type);
