@@ -18,17 +18,42 @@ html, body {
 .left-container {
 	display: flex;
 	flex-direction: column;
-	width: 33%;
+	width: 35%;
 	position: static;
 	background: rgba(255, 255, 255, 0.3);
 }
 
 .right-container {
-	width: 67%;
+	width: 45%;
 	display: flex;
 	flex-direction: column;
 	position: static;
 	background: rgba(255, 255, 255, 0.3);
+}
+
+.middle-container {
+	width: 20%;
+	display: block;
+	flex-direction: column;
+	position: static;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.sword {
+	margin: 0 auto;
+	background: url('../img/sword.png');
+	background-repeat: no-repeat;
+	background-size: 40%;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.upgrade {
+	color: white;
+	font-size: 12px;
+	background-color: black;
+	border-radius: 20%;
 }
 
 .stats {
@@ -61,13 +86,12 @@ html, body {
 }
 
 .monsters {
-	width: 100%;
-	height: 80%;
-	margin-top: 1%;
-	cursor: pointer;
+	width: 80%;
+	height: 100%;
+	margin: 1% auto;
 	background-image: url('../img/boss0.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	background-position: center;
 }
 
@@ -80,11 +104,11 @@ html, body {
 	font-family: Arial, sans-serif;
 	text-align: center;
 	width: 100%;
-	background-color: red;
-	height: 2%;
+	background-color: rgb(255, 0, 0);
+	height: 20px;
 }
 
-#clickDamageText, #idleDamageText, #criticalHitChanceText, #currentMoneyText {
+#clickDamageText, #idleDamageText, #criticalHitChanceText, #currentMoneyText, #criticalHitMultiplierText {
 	text-align: center;
 	font-size: 14px;
 	font-family: Arial, sans-serif;

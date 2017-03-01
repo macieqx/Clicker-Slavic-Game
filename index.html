@@ -3,26 +3,37 @@
 <head>
 <link rel="stylesheet" href="style/style.css">
 <title> Clicker game </title>
+<meta charset="utf-8">
 </head>
+<body>
 <audio controls autoplay hidden>
 <source src="sound/Jaga.wav" type="audio/wav">
 </audio>
-<body>
 	<div class="container">
 		<div class="left-container">
 			<div class="stats">
 				<p id="clickDamageText"> Pojedyncze udrzenie zabiera 1 HP </p>
 				<p id="idleDamageText"> Twoi wojowie zabierają 0 HP na sekundę </p>
 				<p id="criticalHitChanceText"> Masz 0 % szans na udrzenie krytyczne </p>
+				<p id="criticalHitMultiplierText"> Uderzenie krytyczne zadaje 2x więcej obrażeń </p>
 				<p id="currentMoneyText"> Stan konta : 0 </p>
 			</div>
 			<div class="heroes">
-				<button id="improve"> Popraw </button>
+				<div id="hero1"> Boromir </div>
+				<p id="hero1lvl"> Obecny poziom to 0 </p>
+				<p id="currentdps"> Obecny dps to 0 </p>
+				<p id="futuredps"> Przyszły dps to 1 </p>
+				<p id="levelcost"> Koszt za awans to 150 </p>
+				<button id="hero1u" class="upgrade"> Ulepsz </button>
+
 			</div>
+		</div>
+		<div class="middle-container">
+			<div class="sword"></div>
 		</div>
 		<div class="right-container">
 			<div class="levels">
-				<p id="currentLevelText"> Obecny poziom to 0 </p>
+				<p id="currentLevelText"> Obecny poziom to : 0 </p>
 			</div>
 			<p id="monsterText">DEMO</p>
 			<div class="healthBar"><p id="healthText"> 10/10 </p></div>
@@ -33,5 +44,7 @@
 </body>
 <script src="js/monsters.js"></script>
 <script src="js/heroes.js"></script>
-<script src="js/clicking.js"></script>
+<script src="js/global.js"></script>
+<script src="js/upgrade.js"></script>
+<script src="js/damage.js"></script>
 </html>
