@@ -42,10 +42,9 @@ function Displayer() {
     document.getElementById('clickDamageText').innerHTML = "Pojedyncze udrzenie zabiera " + clickDamage + " HP";
     document.getElementById('criticalHitChanceText').innerHTML = "Masz " + criticalHitChance + "% szans na udrzenie krytyczne";
     document.getElementById('criticalHitMultiplierText').innerHTML = "Uderzenie krytyczne zabiera " + valueOfCriticalHit + "x więcej obrażeń";
-    document.getElementById('idleDamageText').innerHTML = "Twoi wojowie zabierają na sekundę " + idleDamage + " HP na sekundę";
+    document.getElementById('idleDamageText').innerHTML = "Twoi wojowie zabierają " + idleDamage + " HP na sekundę";
     document.getElementById('healthText').style.width = widthForBar + '%';  //change bar width
 }
-
 
 //function to check current level
 
