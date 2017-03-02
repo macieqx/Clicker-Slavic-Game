@@ -7,7 +7,7 @@
 </head>
 <body>
 <audio controls autoplay hidden>
-<source src="sound/Jaga.wav" type="audio/wav">
+<!-- <source src="sound/Jaga.wav" type="audio/wav"> -->
 </audio>
 	<div class="container">
 		<div class="left-container">
@@ -19,11 +19,13 @@
 				<p id="currentMoneyText"> Stan konta : 0 </p>
 			</div>
 			<div class="heroes">
-				<div id="hero1"> Boromir </div>
+				<div id="hero1" class="warrior">
+				<p id="hero1name"> Boromir </p>
 				<p id="hero1lvl"> Obecny poziom to 0 </p>
 				<p id="currentdps"> Obecny dps to 0 </p>
 				<p id="futuredps"> Przyszły dps to 1 </p>
 				<p id="levelcost"> Koszt za awans to 150 </p>
+				</div>
 				<button id="hero1u" class="upgrade"> Ulepsz </button>
 
 			</div>
@@ -47,4 +49,5 @@
 <script src="js/global.js"></script>
 <script src="js/upgrade.js"></script>
 <script src="js/damage.js"></script>
+<script src="js/display.js"></script>
 </html>

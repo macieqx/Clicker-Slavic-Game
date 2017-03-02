@@ -125,3 +125,22 @@ html, body {
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.2);
 }
+
+.warrior {
+	background-color: #cccccc;
+	border: 1px black solid;
+}
+
+.warrior p, .activewarrior p {
+	color : black;
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Franklin Gothic';
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.activewarrior {
+	background-color: orange;
+	border: 1px white solid;
+}
