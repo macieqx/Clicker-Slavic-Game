@@ -13,4 +13,5 @@ var currentBoss = bosses[0];    // Current boss equals to boss[currentlevel]
 var bossHP = currentBoss.hp;    // BossHP = currentBoss.hp
 var currentHP = 10;             // Base currentHP
 var isCritical;                 // Declaration for critical hit to be checked
-var widthForBar;                // Calculations for Barwidth    
+var widthForBar;                // Calculations for Barwidth
+//var animation;                  // For displaying money that you got    

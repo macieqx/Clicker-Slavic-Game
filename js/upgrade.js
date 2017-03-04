@@ -13,16 +13,24 @@ else {
 function Heroupone() {
 	currentHero = heroes[0];
 
-	if (money > currentHero.cost[currentHero.level+1]) {
+	if (currentHero.level <= heroes[0].cost.length-3) {
+
+		if (money > currentHero.cost[currentHero.level+1]) {
 		money -= currentHero.cost[currentHero.level+1];
 		idleDamage -= currentHero.dps[currentHero.level];
 		idleDamage += currentHero.dps[currentHero.level+1];
 		currentHero.level++;
 		Activator();
 	}
+
 	else {
 		alert("Brak środków!");
 	}
+	}
+
+	else {
+		alert("Ten wojownik już nie awansuje!")
+}
 
     document.getElementById('hero1name').innerHTML = currentHero.name;
 	document.getElementById('hero1lvl').innerHTML = "Obecny poziom to " + currentHero.level;

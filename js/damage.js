@@ -1,4 +1,5 @@
 document.querySelector('.sword').addEventListener("click", Clicking); //event for clicking on moster display function
+  var animation = document.querySelector(".getmoney");
 
 function Clicking() {  //main function
 
