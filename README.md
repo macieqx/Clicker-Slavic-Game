@@ -3,7 +3,7 @@ Clicker game, based on slavic mythology, building from 0, expected finish 30.03.
 
 Typical clicker game, including idle
 
-Live version : www.maciebogacz.pl/clicker
+Live version : www.maciejbogacz.pl/clicker
 
 Expected finish date : before end of April 2017
 
